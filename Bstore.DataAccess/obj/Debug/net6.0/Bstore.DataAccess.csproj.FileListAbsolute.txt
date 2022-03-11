@@ -13,3 +13,18 @@ C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.DataAccess\obj\Debug\net6.0\Bs
 C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.DataAccess\obj\Debug\net6.0\refint\Bstore.DataAccess.dll
 C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.pdb
 C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.DataAccess\obj\Debug\net6.0\ref\Bstore.DataAccess.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\bin\Debug\net6.0\Bstore.DataAccess.deps.json
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\bin\Debug\net6.0\Bstore.DataAccess.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\bin\Debug\net6.0\Bstore.DataAccess.pdb
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\bin\Debug\net6.0\Bstore.Models.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\bin\Debug\net6.0\Bstore.Models.pdb
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.AssemblyInfo.cs
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.csproj.CopyComplete
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\refint\Bstore.DataAccess.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.pdb
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\ref\Bstore.DataAccess.dll

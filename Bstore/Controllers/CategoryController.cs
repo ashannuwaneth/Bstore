@@ -1,4 +1,5 @@
 ﻿using Bstore.DataAccess.Data;
+using Bstore.DataAccess.Repository.IRepository;
 using Bstore.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,15 +12,15 @@ namespace Learningweb.Controllers
     public class CategoryController : Controller
     {
 
-        private readonly ApplicationDataContext _db;
+        private readonly ICategoryRepository _db;
 
-        public CategoryController(ApplicationDataContext db)
+        public CategoryController(ICategoryRepository db)
         {
             _db = db;
         }
         public IActionResult Index()
         {
-            IEnumerable<Category> categoryobj = _db.Categories;
+            IEnumerable<Category> categoryobj = _db.GetAll();
             return View(categoryobj);
         }
 
@@ -41,8 +42,8 @@ namespace Learningweb.Controllers
             if(ModelState.IsValid)
             {
 
-                _db.Categories.Add(obj);
-                _db.SaveChanges();
+                _db.Add(obj);
+                _db.Save();
                 TempData["success"] = "Category has been added";
                 return RedirectToAction("Index");
             }
@@ -56,7 +57,7 @@ namespace Learningweb.Controllers
                 return NotFound();
             }
 
-            var objresult = _db.Categories.Find(id);
+            var objresult = _db.GetFirstOrDefault(x => x.Id == id);
             if (objresult == null)
             {
                 return NotFound();
@@ -78,8 +79,8 @@ namespace Learningweb.Controllers
             {
 
        
-                _db.Categories.Update(obj);
-                _db.SaveChanges();
+                _db.Update(obj);
+                _db.Save();
                 TempData["success"] = "Category Edit has been added";
                 return RedirectToAction("Index");
             }
@@ -93,7 +94,7 @@ namespace Learningweb.Controllers
                 return NotFound();
             }
 
-            var objresult = _db.Categories.Find(id);
+            var objresult = _db.GetFirstOrDefault(x => x.Id == id);
             if (objresult == null)
             {
                 return NotFound();
@@ -115,8 +116,8 @@ namespace Learningweb.Controllers
             {
 
 
-                _db.Categories.Remove(obj);
-                _db.SaveChanges();
+                _db.Remove(obj);
+                _db.Save();
                 TempData["success"] = "Category has been Deleted";
                 return RedirectToAction("Index");
             }
