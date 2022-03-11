@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\Bstore\\Bstore.Models\\Bstore.Models.csproj": {}
+    "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\GIT repository\\Bstore.Models\\Bstore.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\Bstore\\Bstore.Models\\Bstore.Models.csproj": {
+    "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\GIT repository\\Bstore.Models\\Bstore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\Bstore\\Bstore.Models\\Bstore.Models.csproj",
+        "projectUniqueName": "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\GIT repository\\Bstore.Models\\Bstore.Models.csproj",
         "projectName": "Bstore.Models",
-        "projectPath": "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\Bstore\\Bstore.Models\\Bstore.Models.csproj",
+        "projectPath": "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\GIT repository\\Bstore.Models\\Bstore.Models.csproj",
         "packagesPath": "C:\\Users\\ashan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\Bstore\\Bstore.Models\\obj\\",
+        "outputPath": "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\GIT repository\\Bstore.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ashan\\AppData\\Roaming\\NuGet\\NuGet.Config",

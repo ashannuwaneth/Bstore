@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tKBHryL1o0nIZ5BxSSMAXuFA5PcgtuPo8ZnZ+4eeJRgR0M9zSb/6DBm/2Ul3pECRnmPRqNVFNNasGs4YtN+pjA==",
+  "dgSpecHash": "ifDTz2YrX9YOax2AEtI8tpI1aN8+889m5O1hjoIqeCgYFNcfo6qgMxL457D/tfU2LTYWWq/+zcaDLUpoEkss1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\Bstore\\Bstore.DataAccess\\Bstore.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\GIT repository\\Bstore.DataAccess\\Bstore.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ashan\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\ashan\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

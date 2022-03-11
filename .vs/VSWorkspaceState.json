@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bstore.DataAccess",
+    "\\Bstore\\Views",
+    "\\Bstore\\Views\\Home"
   ],
-  "SelectedNode": "\\C:\\Users\\ashan\\OneDrive\\Desktop\\MVC\\GIT repository",
   "PreviewInSolutionExplorer": false
 }
