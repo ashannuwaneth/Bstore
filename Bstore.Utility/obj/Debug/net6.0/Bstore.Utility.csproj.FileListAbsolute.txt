@@ -1,0 +1,12 @@
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\bin\Debug\net6.0\Bstore.Utility.deps.json
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\bin\Debug\net6.0\Bstore.Utility.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\bin\Debug\net6.0\Bstore.Utility.pdb
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\obj\Debug\net6.0\Bstore.Utility.csproj.AssemblyReference.cache
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\obj\Debug\net6.0\Bstore.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\obj\Debug\net6.0\Bstore.Utility.AssemblyInfoInputs.cache
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\obj\Debug\net6.0\Bstore.Utility.AssemblyInfo.cs
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\obj\Debug\net6.0\Bstore.Utility.csproj.CoreCompileInputs.cache
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\obj\Debug\net6.0\Bstore.Utility.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\obj\Debug\net6.0\refint\Bstore.Utility.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\obj\Debug\net6.0\Bstore.Utility.pdb
+C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Utility\obj\Debug\net6.0\ref\Bstore.Utility.dll
