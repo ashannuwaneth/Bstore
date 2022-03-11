@@ -114,8 +114,6 @@ namespace Learningweb.Controllers
             }
             if (ModelState.IsValid)
             {
-
-
                 _db.Remove(obj);
                 _db.Save();
                 TempData["success"] = "Category has been Deleted";
