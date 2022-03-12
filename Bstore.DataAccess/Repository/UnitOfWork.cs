@@ -1,6 +1,5 @@
 ﻿using Bstore.DataAccess.Data;
 using Bstore.DataAccess.Repository.IRepository;
-using Bstore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,18 +8,20 @@ using System.Threading.Tasks;
 
 namespace Bstore.DataAccess.Repository
 {
-    public class CategoryRepository : Repository<Category>, ICategoryRepository
+    public class UnitOfWork : IUnitOfWork
     {
-
         private readonly ApplicationDataContext _db;
 
-        public CategoryRepository(ApplicationDataContext db) : base(db)
+        public UnitOfWork(ApplicationDataContext db) 
         {
             _db = db;
-        }   
-        public void Update(Category obj)
+            Category = new CategoryRepository(_db);
+        }
+        public ICategoryRepository Category { get; private set; }
+
+        public void Save()
         {
-            _db.Categories.Update(obj);
+            _db.SaveChanges();
         }
     }
 }

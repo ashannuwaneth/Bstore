@@ -12,15 +12,15 @@ namespace Learningweb.Controllers
     public class CategoryController : Controller
     {
 
-        private readonly ICategoryRepository _db;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(ICategoryRepository db)
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
         public IActionResult Index()
         {
-            IEnumerable<Category> categoryobj = _db.GetAll();
+            IEnumerable<Category> categoryobj = _unitOfWork.Category.GetAll();
             return View(categoryobj);
         }
 
@@ -42,8 +42,8 @@ namespace Learningweb.Controllers
             if(ModelState.IsValid)
             {
 
-                _db.Add(obj);
-                _db.Save();
+                _unitOfWork.Category.Add(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category has been added";
                 return RedirectToAction("Index");
             }
@@ -57,7 +57,7 @@ namespace Learningweb.Controllers
                 return NotFound();
             }
 
-            var objresult = _db.GetFirstOrDefault(x => x.Id == id);
+            var objresult = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == id);
             if (objresult == null)
             {
                 return NotFound();
@@ -78,9 +78,9 @@ namespace Learningweb.Controllers
             if (ModelState.IsValid)
             {
 
-       
-                _db.Update(obj);
-                _db.Save();
+
+                _unitOfWork.Category.Update(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category Edit has been added";
                 return RedirectToAction("Index");
             }
@@ -94,7 +94,7 @@ namespace Learningweb.Controllers
                 return NotFound();
             }
 
-            var objresult = _db.GetFirstOrDefault(x => x.Id == id);
+            var objresult = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == id);
             if (objresult == null)
             {
                 return NotFound();
@@ -114,8 +114,8 @@ namespace Learningweb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Remove(obj);
-                _db.Save();
+                _unitOfWork.Category.Remove(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category has been Deleted";
                 return RedirectToAction("Index");
             }
