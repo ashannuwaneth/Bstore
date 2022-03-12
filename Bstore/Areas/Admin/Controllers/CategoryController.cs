@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Learningweb.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
 
