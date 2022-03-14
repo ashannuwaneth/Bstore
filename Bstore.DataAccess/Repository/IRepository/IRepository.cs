@@ -9,8 +9,8 @@ namespace Bstore.DataAccess.Repository
 {
     public interface IRepository<T> where T : class
     {
-        T GetFirstOrDefault(Expression<Func<T,bool>> filter);
-        IEnumerable<T> GetAll();
+        T GetFirstOrDefault(Expression<Func<T,bool>> filter, string? includeProperties = null);
+        IEnumerable<T> GetAll(string? includeProperties = null);
         void Add(T item);
         void Remove(T item);
         void RemoveRange(IEnumerable<T> item);
