@@ -1,8 +1,12 @@
 ﻿@model Bstore.Models.ViewModels.ProductVM;
 
 <form method="post" asp-action="InsetUpdate" enctype="multipart/form-data">
-    <div class="border p-3 mt-4 row">
-        <div class="row p-2">
+    	<input asp-for="Product.Id" hidden />
+	<input asp-for="Product.ImageUrl" hidden />
+    <div class="row">
+        <div class="col-10">
+			<div class="border p-3 mt-4 row">
+        <div class="col-12 pb-2">
             <h2 class="text-primary">@(Model.Product.Id != 0? "Update" : "Create") Product </h2>
             <hr />
         </div>
@@ -14,7 +18,7 @@
         </div>
               <div class="mb-3">
             <label asp-for="Product.Description"></label>
-            <input asp-for="Product.Description" class="form-control" />
+   <textarea asp-for="Product.Description" rows="3" class="form-control"></textarea>
             <span asp-validation-for="Product.Description" class="text-danger"></span>
         </div>
               <div class="mb-3 col-6">
@@ -66,7 +70,7 @@
             </select>
             <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
         </div>
-       <di class="col-12">
+       <div class="col-12">
         @if(Model.Product.Id !=0)
         {
                 <button type="submit" class="btn btn-primary" style="width:150px">Update</button>
@@ -76,9 +80,15 @@
                  <button type="submit" onclick="return ValidateInput()"  class="btn btn-primary" style="width:150px">Create</button>
             }
 
-        <a asp-action="Index" asp-controller="CoverType" class="btn btn-secondary" style="width:150px"> Bact To List</a>
-        </di>
+        <a asp-action="Index" asp-controller="Product" class="btn btn-secondary" style="width:150px"> Bact To List</a>
+        </div>
 
+        </div>
+        </div>
+                	<div class="col-2 pt-4">
+			<img src="@Model.Product.ImageUrl"
+			width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
+		</div>
     </div>
 </form>
 
@@ -87,6 +97,15 @@
         <partial name="_ValidationScriptsPartial"/>
     }
 <script>
+
+    tinymce.init({
+      selector: 'textarea',
+      plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
+      toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter pageembed permanentpen table',
+      toolbar_mode: 'floating',
+      tinycomments_mode: 'embedded',
+      tinycomments_author: 'Author name',
+    });
 
   
 	function ValidateInput(){
