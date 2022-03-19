@@ -10,14 +10,14 @@ C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Models\obj\Debug\net6.0\Bstore
 C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Models\obj\Debug\net6.0\refint\Bstore.Models.dll
 C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Models\obj\Debug\net6.0\Bstore.Models.pdb
 C:\Users\ashan\OneDrive\Desktop\MVC\Bstore\Bstore.Models\obj\Debug\net6.0\ref\Bstore.Models.dll
-C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\bin\Debug\net6.0\Bstore.Models.deps.json
-C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\bin\Debug\net6.0\Bstore.Models.dll
-C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\bin\Debug\net6.0\Bstore.Models.pdb
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\obj\Debug\net6.0\Bstore.Models.csproj.AssemblyReference.cache
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\obj\Debug\net6.0\Bstore.Models.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\obj\Debug\net6.0\Bstore.Models.AssemblyInfoInputs.cache
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\obj\Debug\net6.0\Bstore.Models.AssemblyInfo.cs
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\obj\Debug\net6.0\Bstore.Models.csproj.CoreCompileInputs.cache
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\bin\Debug\net6.0\Bstore.Models.deps.json
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\bin\Debug\net6.0\Bstore.Models.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\bin\Debug\net6.0\Bstore.Models.pdb
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\obj\Debug\net6.0\Bstore.Models.dll
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\obj\Debug\net6.0\refint\Bstore.Models.dll
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.Models\obj\Debug\net6.0\Bstore.Models.pdb

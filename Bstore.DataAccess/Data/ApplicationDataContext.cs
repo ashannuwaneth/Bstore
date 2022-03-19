@@ -1,4 +1,5 @@
 ﻿using Bstore.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Bstore.DataAccess.Data
 {
-    public class ApplicationDataContext : DbContext
+    public class ApplicationDataContext : IdentityDbContext
     {
         public ApplicationDataContext(DbContextOptions<ApplicationDataContext> options) : base(options)
         {
@@ -18,5 +19,8 @@ namespace Bstore.DataAccess.Data
         public DbSet<CoverType> CoverTypes { get; set; }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        
+
     }
 }
