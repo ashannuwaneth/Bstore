@@ -1,6 +1,8 @@
 ﻿using Bstore.DataAccess.Data;
 using Bstore.DataAccess.Repository.IRepository;
 using Bstore.Models;
+using Bstore.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,6 +12,7 @@ using System.Threading.Tasks;
 namespace Learningweb.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
 

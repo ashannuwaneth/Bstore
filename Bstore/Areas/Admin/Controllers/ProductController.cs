@@ -2,6 +2,8 @@
 using Bstore.DataAccess.Repository.IRepository;
 using Bstore.Models;
 using Bstore.Models.ViewModels;
+using Bstore.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
@@ -12,6 +14,7 @@ using System.Threading.Tasks;
 namespace Learningweb.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
 

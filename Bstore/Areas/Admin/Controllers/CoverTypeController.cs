@@ -1,10 +1,13 @@
 ﻿using Bstore.DataAccess.Repository.IRepository;
 using Bstore.Models;
+using Bstore.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bstore.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _IUnitOfWork;
