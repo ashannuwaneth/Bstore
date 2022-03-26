@@ -30,3 +30,5 @@ C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\n
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.pdb
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\Bstore.DataAccess.genruntimeconfig.cache
 C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\obj\Debug\net6.0\ref\Bstore.DataAccess.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\bin\Debug\net6.0\Bstore.Utility.dll
+C:\Users\ashan\OneDrive\Desktop\MVC\GIT repository\Bstore.DataAccess\bin\Debug\net6.0\Bstore.Utility.pdb

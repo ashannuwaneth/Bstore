@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Bstore.Models\Bstore.Models.csproj" />
+    <ProjectReference Include="..\Bstore.Utility\Bstore.Utility.csproj" />
   </ItemGroup>
 
 </Project>
